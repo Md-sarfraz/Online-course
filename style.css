@@ -1,0 +1,228 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Spartan', sans-serif
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+}
+
+.d-flex {
+    display: flex;
+}
+.fixed-element {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2; /* Adjust the z-index as needed */
+    /* Add any other styles you want for the fixed navigation bar */
+}
+.top-header {
+    font-weight: 520;
+    color: #b8b8b8;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email {
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.call {
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    /* border-right: 2px solid #b8b8b8; */
+}
+
+.call i {
+    font-size: 14px;
+    color: #1ab69d;
+    padding-right: 10px;
+}
+
+.email i {
+    font-size: 16px;
+    color: #1ab69d;
+    padding-right: 10px;
+}
+
+.vertical-line {
+    width: 1.5px;
+    height: 30px;
+    background-color: #4f4f4f;
+    margin-right: 30px;
+}
+
+.login-apply {
+    display: flex;
+    width: 60%;
+    justify-content: right;
+    padding-right: 50px;
+}
+
+.login-apply button {
+    width: 170px;
+    background-color: #1ab69d;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+
+.login-apply button i {
+    font-size: 15px;
+}
+
+.login-apply p {
+    padding-right: 30px;
+}
+
+.top-header p:hover {
+    color: white;
+}
+
+.top-header i:hover~p {
+    color: white;
+}
+
+.login-apply button:hover {
+    /* background-color:rgba(48,185,122,255) ; */
+    background: linear-gradient(to right, #1ab69d, rgba(48, 185, 122, 255));
+    background-repeat: no-repeat;
+}
+
+/* ====================nav-section start======================= */
+.center {
+    justify-content: center;
+    align-items: center;
+    padding-right: 26px;
+}
+
+
+.nav-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.nav-logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: right;
+}
+
+.navbar i {
+    padding-left: 8px;
+    font-size: 11px;
+}
+
+.nav-icon {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-vertical-line {
+    width: 4%;
+    width: 2px;
+    height: 45px;
+    background-color: #f3f3f3;
+    margin-left: 40px;
+}
+
+.nav-icon i {
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+.background1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 110vh;
+    background-color: #e8f0f1;
+    background-image: url("./Assests/background1.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 1px;
+}
+
+.background1 img {
+    height: 100vh;
+    width: 100%;
+}
+
+.heading-title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    padding: 90px 0px 0px 55px
+}
+
+.heading-title h1 {
+    font-size: 52px;
+    margin: 0px;
+}
+
+.heading-title h1 span {
+    font-size: 57px;
+    color: #ee4a62;
+}
+
+.heading-title button {
+    width: 175px;
+    height: 55px;
+    background-color: #1ab69d;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.heading-title p {
+    font-size: 18px;
+}
+
+.heading-title button i {
+    font-size: 15px;
+}
+
+.heading-title button:hover {
+    /* background-color:rgba(48,185,122,255) ; */
+    background: linear-gradient(to right, #1ab69d, rgba(48, 185, 122, 255));
+    background-repeat: no-repeat;
+}
+.home-girl{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: 50%;
+    height: 110vh 
+}
+.home-girl img{
+    width: 520px;
+}
