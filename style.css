@@ -14,16 +14,20 @@ body {
 .d-flex {
     display: flex;
 }
-m-0{
+
+m-0 {
     margin: 0px;
 }
+
 .fixed-element {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2; /* Adjust the z-index as needed */
+    z-index: 2;
+    /* Adjust the z-index as needed */
     /* Add any other styles you want for the fixed navigation bar */
 }
+
 .top-header {
     font-weight: 520;
     color: #b8b8b8;
@@ -101,7 +105,7 @@ m-0{
 
 .login-apply button:hover {
     /* background-color:rgba(48,185,122,255) ; */
-    background:linear-gradient(to right, #1ab69d, #31b978);
+    background: linear-gradient(to right, #1ab69d, #31b978);
     background-repeat: no-repeat;
 }
 
@@ -143,7 +147,8 @@ m-0{
     padding-left: 8px;
     font-size: 11px;
 }
-.navbar p{
+
+.navbar p {
     font-weight: 550;
     font-size: 19px;
 }
@@ -231,20 +236,26 @@ m-0{
     background-repeat: no-repeat;
     transition: 0.1s ease-in-out;
 }
-.home-girl{
+
+.home-girl {
     display: flex;
     justify-content: right;
     align-items: end;
     width: 50%;
-    height: 110vh 
+    height: 110vh
 }
-.home-girl img{
+
+.home-girl img {
     width: 520px;
 }
+
 /* ==================================dropdown menu code========================================= */
-.dropdown-menu{
+.navbar a{
+    text-decoration: none;
+}
+.dropdown-menu {
     position: absolute;
-   display: none;
+    display: none;
     flex-direction: row;
     z-index: 3;
     background-color: #ffff;
@@ -256,19 +267,22 @@ m-0{
     width: 140%;
 
 }
-.menu-detail1{
+
+.menu-detail1 {
     width: 30%;
     border-right: 2px solid rgb(225, 212, 212);
     line-height: 40px;
 }
-.menu-detail1 li span{
+
+.menu-detail1 li span {
     color: white;
     font-size: 10px;
     background-color: #ee4a62;
     padding: 4px;
     border-radius: 3px;
 }
-.menu-detail2{
+
+.menu-detail2 {
     width: 30%;
     line-height: 40px;
     display: flex;
@@ -276,7 +290,8 @@ m-0{
     justify-content: right;
     padding-left: 80px;
 }
-.menu-detail2 li span{
+
+.menu-detail2 li span {
     color: white;
     font-size: 10px;
     background-color: #1ab69d;
@@ -284,28 +299,144 @@ m-0{
     border-radius: 3px;
     margin-left: 4px;
 }
-.dropdown-menu ul li{
-list-style: none;
+
+.dropdown-menu ul li {
+    list-style: none;
 
 }
-.nav-item:hover .hover-item{
+
+/* =======================home dropdown start=================== */
+
+.home:hover .dropdown-menu {
     display: flex;
     transition: 1s;
 }
-.hover-item:hover{
+
+.dropdown-menu:hover {
     display: flex;
 }
-.menu-image img{
+
+.menu-image img {
     height: 250px;
     width: 400px;
 }
 
+/* =======================pages dropdown start=================== */
+
+
+.dropdown-pages-menu {
+    position: absolute;
+    top: 90px;
+    display: none;
+    z-index: 3;
+    background-color: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.dropdown-pages-menu ul {
+    list-style: none;
+    flex-direction: column;
+    line-height: 2px;
+    line-height: 35px;
+    padding: 5px 30px 5px 30px;
+}
+
+.pages:hover .dropdown-pages-menu {
+    display: flex;
+    transition: 1s;
+}
+
+/* =======================courses dropdown start=================== */
+
+
+
+.dropdown-courses-menu {
+    position: absolute;
+    top: 90px;
+    display: none;
+    z-index: 3;
+    background-color: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.dropdown-courses-menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    line-height: 2px;
+    line-height: 35px;
+    padding: 5px 30px 5px 30px;
+}
+
+.courses:hover .dropdown-courses-menu {
+    display: flex;
+    transition: 1s;
+}
+
+
+/* =======================blog dropdown start=================== */
+
+
+
+
+.dropdown-blog-menu {
+    position: absolute;
+    top: 90px;
+    display: none;
+    z-index: 3;
+    background-color: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.dropdown-blog-menu ul {
+    list-style: none;
+    flex-direction: column;
+    line-height: 2px;
+    line-height: 35px;
+    padding: 5px 30px 5px 30px;
+}
+
+.blog:hover .dropdown-blog-menu {
+    display: flex;
+    transition: 1s;
+}
+
+/* =======================contact dropdown start=================== */
+
+
+.dropdown-contact-menu {
+    position: absolute;
+    top: 90px;
+    display: none;
+    z-index: 3;
+    background-color: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.dropdown-contact-menu ul {
+    list-style: none;
+    flex-direction: column;
+    line-height: 2px;
+    line-height: 35px;
+    padding: 10px 20px 10px 20px;
+}
+
+.contact:hover .dropdown-contact-menu {
+    display: flex;
+    transition: 1s;
+}
 
 /* ==================================.short-discription======================== */
 
 
 
-.short-discription{
+.short-discription {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -314,7 +445,8 @@ list-style: none;
     background-repeat: no-repeat;
 
 }
-.discription-box{
+
+.discription-box {
     width: 25%;
     display: flex;
     justify-content: center;
@@ -322,12 +454,14 @@ list-style: none;
     border-right: 1.9px solid #FFFFFF1A;
 
 }
-.discription-box p{
+
+.discription-box p {
     color: #ffff;
     font-size: 23px;
     padding-left: 25px;
 }
-.svg-image{
+
+.svg-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,7 +470,8 @@ list-style: none;
     border-radius: 50%;
     background-color: #FFFFFF1A;
 }
-.instructors{
+
+.instructors {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -349,22 +484,26 @@ list-style: none;
     /* line-height: 1px; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.instructors img{
+
+.instructors img {
     height: 50px;
     width: 150px;
     border: none;
     border-radius: 0;
     box-shadow: none;
 }
-.instructors h2{
+
+.instructors h2 {
     font-weight: 400;
     font-size: 23px;
     margin: 0px;
 }
-.instructors-img-title{
+
+.instructors-img-title {
     align-items: center;
 }
-.instructors-img-title span{
+
+.instructors-img-title span {
     color: #ee4a62;
     font-weight: bold;
 }
