@@ -507,3 +507,59 @@ m-0 {
     color: #ee4a62;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+.top-categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.top-categories-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-categories-heading h1{
+    font-size: 41px;
+    letter-spacing: 1.5px;
+    margin: 0px;
+}
+.top-categories-heading img{
+    width: 175px;
+}
+.top-categories-courses{
+    display:flex ;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.top-categories-courses ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 25%;
+}
+
+.top-categories-courses ul li{
+    display:flex ;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+
+}
+.top-categories-courses ul li img{
+width: 85px;
+}
