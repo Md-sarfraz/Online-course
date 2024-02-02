@@ -250,9 +250,10 @@ m-0 {
 }
 
 /* ==================================dropdown menu code========================================= */
-.navbar a{
+.navbar a {
     text-decoration: none;
 }
+
 .dropdown-menu {
     position: absolute;
     display: none;
@@ -516,50 +517,163 @@ m-0 {
 
 
 
-.top-categories{
+.top-categories {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
 }
-.top-categories-heading{
+
+.top-categories-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.top-categories-heading h1{
+
+.top-categories-heading h1 {
     font-size: 41px;
     letter-spacing: 1.5px;
     margin: 0px;
 }
-.top-categories-heading img{
-    width: 175px;
+
+.top-categories-heading p {
+    font-size: 20px;
+    color: #9a9494;
+    letter-spacing: 0px;
 }
-.top-categories-courses{
-    display:flex ;
-    flex-direction:row ;
+
+.top-categories-heading img {
+    width: 180px;
+}
+
+.top-categories-courses {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
 
 }
-.top-categories-courses ul{
+
+.top-categories-courses ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 25%;
+    width: 32%;
+
 }
 
-.top-categories-courses ul li{
-    display:flex ;
-    flex-direction:row ;
-    justify-content: center;
+.top-categories-courses ul li {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-
+    width: 100%;
+    height: 82px;
+    border-radius: 5px;
 }
-.top-categories-courses ul li img{
-width: 85px;
+
+.top-categories-courses ul li p {
+    font-size: 20px;
+}
+
+.top-categories-courses ul li img {
+    width: 85px;
+}
+
+.column1 li:nth-child(1) {
+    background-color: #effaf8;
+}
+
+.column1 li:nth-child(1):hover {
+    background-color: #1ab69d;
+    transition: 0.3s ease-in-out;
+}
+
+
+.column1 li:nth-child(2) {
+    background-color: #fffaef;
+}
+
+.column1 li:nth-child(2):hover {
+    background-color: #f8b81f;
+    transition: 0.3s ease-in-out;
+}
+
+.column1 li:nth-child(3) {
+    background-color: #f3f4fe;
+}
+
+.column1 li:nth-child(3):hover {
+    background-color: #5866eb;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.column2 li:nth-child(1) {
+    background-color: #fef2f4;
+}
+
+.column2 li:nth-child(1):hover {
+    background-color: #ee4a62;
+    transition: 0.3s ease-in-out;
+}
+
+.column2 li:nth-child(2) {
+    background-color: #f7f3ff;
+}
+
+.column2 li:nth-child(2):hover {
+    background-color: #8e56ff;
+    transition: 0.3s ease-in-out;
+}
+
+.column2 li:nth-child(3) {
+    background-color: #fff7ef;
+}
+
+.column2 li:nth-child(3):hover {
+    background-color: #f8941f;
+    transition: 0.3s ease-in-out;
+}
+
+
+.column3 li:nth-child(1) {
+    background-color: #eefbf5;
+}
+
+.column3 li:nth-child(1):hover {
+    background-color: #0ecd73;
+    transition: 0.3s ease-in-out;
+}
+
+.column3 li:nth-child(2) {
+    background-color: #fff0f8;
+}
+
+.column3 li:nth-child(2):hover {
+    background-color: #f92596;
+    transition: 0.3s ease-in-out;
+}
+
+.column3 li:nth-child(3) {
+    background-color: #f1fbff;
+}
+
+.column3 li:nth-child(3):hover {
+    background-color: #39c0fa;
+    transition: 0.3s ease-in-out;
+}
+
+
+.column3 li:nth-child(1) img {
+    width: 62px;
+}
+
+.column3 li:nth-child(3) img {
+    width: 62px;
 }
