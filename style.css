@@ -15,8 +15,14 @@ body {
     display: flex;
 }
 
-m-0 {
+.m-0 {
     margin: 0px;
+}
+.a-center{
+align-items: center;
+}
+.j-center{
+    justify-content: center;
 }
 
 .fixed-element {
@@ -184,6 +190,7 @@ m-0 {
     background-position: center;
     position: relative;
     padding-top: 1px;
+    z-index: 1;
 }
 
 .background1 img {
@@ -248,6 +255,41 @@ m-0 {
 
 .home-girl img {
     width: 520px;
+}
+ 
+.dot-image1 img{
+position: absolute;
+height: 190px;
+width: 190px;
+top: 100px;
+    left: -10px;
+    z-index: -1;
+}
+
+.circle-image1 img{
+    position: absolute;
+    width: 156px;
+    height: 175px;
+    top: 144px;
+    right: 36px;
+}
+.dot-image5 img{
+    position: absolute;
+    top: -110px;
+    z-index: -1;
+    left: -58px;
+}
+.dot-image6{
+    position: absolute;
+    right: 100px;
+    bottom: -135px;
+    z-index: -1;
+}
+.shape3{
+    position: absolute;
+    top: -55px;
+    left: -95px;
+    z-index: -1;
 }
 
 /* ==================================dropdown menu code========================================= */
@@ -725,6 +767,7 @@ m-0 {
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    padding-bottom: 10.5rem;
 }
 .about-us-content{
     display: flex;
@@ -834,4 +877,42 @@ color:#ee4a62;
 .award-text p{
    margin: 0;
    color: #9a9494;
+}
+
+
+
+
+/* ===================  popular courses  ================ */
+
+.popular-courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popular-courses-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    
+}
+.popular-course-wrapper-box{
+    width: 23%;
+    background-color: white;
+    box-shadow: 0 40px 70px rgba(27,20,78,.1);
+    border-radius: 10px;
+}
+.popular-course-wrapper-box img{
+    width: 100%;
+}
+.popular-coursse-content{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.popular-coursse-content .bi-star-fill{
+    color: #f3c316;
+    font-size: 14px;
 }
