@@ -1033,7 +1033,7 @@ body {
 }
 
 .lessons-students img {
-    width: 16px;
+    width: 15px;
 }
 
 .lessons-students i {
@@ -1042,6 +1042,7 @@ body {
 
 .lessons-students p {
     font-size: 15px;
+    margin-left: 5px;
     /* color: #9a9494; */
 }
 
