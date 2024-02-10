@@ -961,6 +961,7 @@ body {
 
 .popular-course-wrapper-box {
     width: 23%;
+    height: 82vh;
     background-color: white;
     box-shadow: 0 40px 70px rgba(27, 20, 78, .1);
     border-radius: 5px;
@@ -981,7 +982,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     color: #35bea9;
-    padding: 4px 10px 4px 10px;
+    padding: 5px 11px 5px 11px ;
     background: #ddf4f0;
     border-radius: 3px;
 }
@@ -1089,4 +1090,84 @@ body {
     background: linear-gradient(to right, #1ab69d, #31b978);
     background-repeat: no-repeat;
     transition: 0.1s ease-in-out;
+}
+.popular-course-wrapper-box:hover{
+    color: white;
+    background-color: #1ab69d;
+    padding-top: 20px;
+    
+    transition: 0.7s;
+}
+.popular-course-wrapper-box:hover .date-time{
+    display: none;
+}
+.popular-course-wrapper-box:hover .wrapper-image{
+    display: none;
+}
+.wrapper-paragraph{
+    display: none;
+
+}
+.popular-course-wrapper-box:hover .wrapper-paragraph{
+    display: block;
+}
+.heart-icon{
+    display: none;
+    color: rgb(255, 255, 255);
+    top: 10px;
+    padding: 13px 11px 8px 10px;
+    background-color: #3cc1ac;
+    right: 13px;
+    position: absolute;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center */
+}
+.heart-icon:hover{
+    background-color: #ee4a62;
+    transition: 0.2s ease-in-out;
+}
+.popular-course-wrapper-box:hover .heart-icon{
+    display: block;
+}
+.enroll-button i{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.enroll-button button{
+    position: absolute;
+    bottom: 35px;
+    left: 33px;
+    width: 140px;
+    height: 39px;
+    background-color: #ee4a62;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enroll-button button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+.enroll-button{
+    display: none;
+}
+.popular-course-wrapper-box:hover .popular-coursse-content strong{
+    color: black;
+    background-color: white;
+}
+
+.popular-course-wrapper-box:hover .enroll-button{
+    display: block;
+}
+.popular-course-wrapper-box:hover .lessons-students i{
+    color: white;
+}
+.popular-course-wrapper-box:hover .lessons-students svg{
+    color: white;
 }
